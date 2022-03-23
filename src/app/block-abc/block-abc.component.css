@@ -1,0 +1,14 @@
+.bloc-abc {
+  border: 2px double black;
+  height: 40px;
+}
+
+.container-bloc-abc-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-bloc-abc-bottom {
+  display: flex;
+  justify-content: space-between;
+}
