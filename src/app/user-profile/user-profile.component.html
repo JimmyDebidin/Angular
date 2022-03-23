@@ -1,0 +1,20 @@
+<section class="profil">
+  <div>
+    <img [src]="User.photo" [alt]="User.firstName + ' ' + User.name">
+  </div>
+  <div>
+    <p>Nom: {{User.name}}</p>
+    <p>Prénom: {{User.firstName}}</p>
+  </div>
+  <div>
+    <p>{{User.quote}}</p>
+  </div>
+  <div>
+    <input [(ngModel)]="User.quote">
+  </div>
+  <div>
+    <button (click)="showAge()" class="btn btn-secondary">Afficher/Masquer mon age</button>
+    <p [hidden]="isShow">Age : {{User.age}}</p>
+  </div>
+
+</section>
