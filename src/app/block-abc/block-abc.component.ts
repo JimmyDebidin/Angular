@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlockAbcComponent implements OnInit {
   blocText = 'A B C';
+  imageSrc = 'https://via.placeholder.com/350x150';
+  nom = 'bob';
+
   constructor() {}
 
   ngOnInit(): void {}
+
+  direBonjour() {
+    console.log('hey');
+  }
 }
